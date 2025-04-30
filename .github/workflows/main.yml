@@ -18,4 +18,4 @@ jobs:
 
       - name: Check model and run FastAPI
         run: |
-          python -c "import joblib; joblib.load('model.pkl')
+          python -c "import joblib; joblib.load('model.pkl')"
